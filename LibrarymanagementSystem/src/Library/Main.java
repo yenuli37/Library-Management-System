@@ -12,7 +12,7 @@ public class Main {
         database = new Database();
         System.out.println("Welcome to Library Management System!");
         int num;
-        do  {
+//        do  {
             System.out.println("0. Exit\n" + "1. Login\n2. New User");
 
             s = new Scanner(System.in);
@@ -24,7 +24,7 @@ public class Main {
 //                default:
 //                    System.out.println("Error!");
             }
-        }while (num!=0);
+//        }while (num!=0);
     }
 
     private static void login() {
