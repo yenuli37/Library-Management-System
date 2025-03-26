@@ -29,5 +29,5 @@ public abstract class User {
         return phonenumber;
      }
 
-     abstract public void menu();
+     abstract public void menu(Database database, User user);
 }

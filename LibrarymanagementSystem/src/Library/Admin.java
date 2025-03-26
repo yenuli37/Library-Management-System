@@ -32,7 +32,7 @@ public class Admin extends User{
     }
 
     @Override
-    public void menu(){
+    public void menu(Database database, User user){
         System.out.println("1. View Books");
         System.out.println("2. Add Books");
         System.out.println("3. Delete Books");
@@ -43,7 +43,8 @@ public class Admin extends User{
 
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
-        this.operations[n-1].oper();
+        this.operations[n-1].oper(database, user);
+        s.close();
 
     }
 }
