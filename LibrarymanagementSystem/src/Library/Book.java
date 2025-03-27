@@ -19,7 +19,7 @@ public class Book {
         this.author = author;
         this.publisher = publisher;
         this.address = address;
-        this.qty = qty;
+        this.qty = brwcopies;
         this.price = price;
         this.brwcopies = brwcopies;
     }
